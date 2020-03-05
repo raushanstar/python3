@@ -11,11 +11,12 @@ else:
     print("No error occurred!")
     ```
     **outpt**
+    
    ```No error occurred```
 
 
     
-  Here we have a dictionary with 3 elements and in the **try/except** we access a key that exists. This works, so the **KeyError** is **not** raised. Because there is no error, the else executes and “No error occurred!” is printed to the screen. Now let’s add in the **finally** statement:
+ Here we have a dictionary with 3 elements and in the **try/except** we access a key that exists. This works, so the **KeyError** is **not** raised. Because there is no error, the else executes and “No error occurred!” is printed to the screen. Now let’s add in the **finally** statement:
 ```python
 my_dict = {"a":1, "b":2, "c":3}
 
@@ -28,12 +29,12 @@ else:
 finally:
     print("The finally statement ran!")
     ```
-    output
+    **output**
     ```No error occurred!
 The finally statement ran!```
   If you run this example, it will execute the else and finally statements. Most of the time, you won’t see the else statement used as any code that follows a try/except will be executed if no errors were raised. The only good usage of the else statement that I’ve seen mentioned is where you want to execute a second piece of code that can also raise an error. Of course, if an error is raised in the else, then it won’t get caught.
 
-### **Wrapping Up**
+**Wrapping Up**
 Now you should be able to handle exceptions in your code. If you find your code raising an exception, you will know how to wrap it in such a way that you can catch the error and exit gracefully or continue without interruption.
 
 
