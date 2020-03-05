@@ -31,8 +31,8 @@ finally:
   ```
     **output**
     ```No error occurred!
-The finally statement ran!```
-  If you run this example, it will execute the else and finally statements. Most of the time, you won’t see the else statement used as any code that follows a try/except will be executed if no errors were raised. The only good usage of the else statement that I’ve seen mentioned is where you want to execute a second piece of code that can also raise an error. Of course, if an error is raised in the else, then it won’t get caught.
+            The finally statement ran!```
+ If you run this example, it will execute the else and finally statements. Most of the time, you won’t see the else statement used as any code that follows a try/except will be executed if no errors were raised. The only good usage of the else statement that I’ve seen mentioned is where you want to execute a second piece of code that can also raise an error. Of course, if an error is raised in the else, then it won’t get caught.
 
 **Wrapping Up**
 Now you should be able to handle exceptions in your code. If you find your code raising an exception, you will know how to wrap it in such a way that you can catch the error and exit gracefully or continue without interruption.
