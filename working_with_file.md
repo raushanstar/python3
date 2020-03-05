@@ -9,7 +9,7 @@ except KeyError:
     print("A KeyError occurred!")
 else:
     print("No error occurred!")
-    ```
+  ```
     **outpt**
     
  ```No error occurred```
@@ -28,7 +28,7 @@ else:
     print("No error occurred!")
 finally:
     print("The finally statement ran!")
-    ```
+  ```
     **output**
     ```No error occurred!
 The finally statement ran!```
