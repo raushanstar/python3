@@ -85,8 +85,5 @@ handle.close()
 
 
 
-Let’s spend some time looking at different ways to read files.
-
-
 
 
