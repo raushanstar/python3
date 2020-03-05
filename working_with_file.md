@@ -12,7 +12,7 @@ else:
     ```
     **outpt**
     
-   ```No error occurred```
+ ```No error occurred```
 
 
     
