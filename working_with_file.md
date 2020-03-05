@@ -78,7 +78,7 @@ data = handle.readlines() # read ALL the lines!
 print(data)
 handle.close()
 ```
-**outpt**
+**output**
 ```['This is a test file\n', 'line 2\n', 'line 3\n', 'this line intentionally left blank\n']```
 
 
