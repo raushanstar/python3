@@ -1,4 +1,4 @@
-###How To Read Files Piece by Piece
+# How To Read Files Piece by Piece
 The easiest way to read a file in chunks is to use a loop. First we will learn how to read a file line by line and then we will learn how to read it a kilobyte at a time. We will use a for loop for our first example:
 ```python
 handle = open("test.txt", "r")
@@ -38,8 +38,9 @@ this line intentionally left blank
 ```
 In this example, we use Python’s while loop to read a kilobyte of the file at a time. As you probably know, a kilobyte is 1024 bytes or characters. Now let’s pretend that we want to read a binary file, like a PDF.
 
-###How to Read a Binary File
+# How to Read a Binary File
 Reading a binary file is very easy. All you need to do is change the file mode:
+
 ```python
 handle = open("test.pdf", "rb")
 ```
