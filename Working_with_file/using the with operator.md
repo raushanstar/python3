@@ -1,12 +1,12 @@
 # using the with operator
 
-Python has a neat little builtin called *with* which you can use to simplify reading and writing files. The with operator creates what is known as a ***context manager*** in Python that *will* automatically close the file for you when you are done processing it. Let’s see how this works:
+Python has a neat little builtin called **with** which you can use to simplify reading and writing files. The **with** operator creates what is known as a ***context manager*** in Python that *will* automatically close the file for you when you are done processing it. Let’s see how this works:
 
 ```python
 with open("test.txt") as file_handler:
     for line in file_handler:
         print(line)
-        ```
+ ```
 *output*
 ```
 This is a test file
@@ -18,7 +18,7 @@ line 3
 this line intentionally left blank
 ```
 
-The syntax for the *with* operator is a little strange, but you’ll pick it up pretty quickly. Basically what we’re doing is replacing:
+The syntax for the **with** operator is a little strange, but you’ll pick it up pretty quickly. Basically what we’re doing is replacing:
 
 ```python
 handle = open("test.txt")
