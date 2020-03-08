@@ -14,7 +14,7 @@ finally:
     if file_handler is not None:
         file_handler.close()
 ```
-**output***
+**output**
 ```
 An IOError has occurred!
 ```
