@@ -1,0 +1,2 @@
+Python comes with lots of pre-made code baked in. These pieces of code are known as modules and packages. A module is a single importable Python file whereas a package is made up of two or more modules. A package can be imported the same way a module is. Whenever you save a Python script of your own, you have created a module. It may not be a very useful module, but that’s what it is. In this chapter, we will learn how to import modules using several different methods. Let’s get started!
+
