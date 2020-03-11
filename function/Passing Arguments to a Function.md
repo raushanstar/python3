@@ -44,7 +44,9 @@ def add(a, b):
 add(c=5, d=2)
 
 # TypeError: add() got an unexpected keyword argument 'c'
-```python
+```
+***output***
+```
 Traceback (most recent call last):
   File "main.py", line 3, in <module>
     add(c=5, d=2)
